@@ -9,7 +9,7 @@ client.on('ready', ()=> {
     console.log('The bot is online.');
 })
 const IGNORE_PREFIX = "!";
-const CHANNELS = ['1198679088999698492'];
+const CHANNELS = ['1198679088999698492','1198744452718661783','1198744483576152226'];
 
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_KEY,
